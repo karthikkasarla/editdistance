@@ -15,7 +15,7 @@ public class editdist {
 		/*for(int i=0;i<in.length;i++){
 			System.out.println(in[i]);
 		}*/
-		System.out.println("enter the string transformed");
+		System.out.println("enter the transformed string");
 		String output=scann.nextLine();
 		char[] out=output.toCharArray();
 		int inlen=in.length;
