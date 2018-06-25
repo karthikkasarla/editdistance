@@ -39,7 +39,7 @@ public class editdist {
 			}
 		}
 		*/
-		System.out.println("Minimum cost to perform transformations are:"+T[inlen-1][outlen-1]);
+		System.out.println("Minimal cost to perform transformations are:"+T[inlen-1][outlen-1]);
 		System.out.println("Optimal sequence of execution are ");
 		opsequence(Opseq,inlen-1,outlen-1,c);
 		
