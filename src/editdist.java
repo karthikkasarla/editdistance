@@ -25,7 +25,7 @@ public class editdist {
 		int [][] T = new int[inlen][outlen];
 		String[][] Opseq=new String[inlen][outlen];
 		int c=EditDistance(in,out,T,Opseq,inlen,outlen);
-		System.out.println("Transformed matrixes are");
+		System.out.println("Transformed matrix");
 		for(int i=0;i<inlen;i++){
 			for(int j=0;j<outlen;j++){
 				System.out.print(T[i][j]+"  ");
