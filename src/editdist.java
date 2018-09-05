@@ -1,7 +1,7 @@
 import java.util.*;
 public class editdist {
-	private static final int DelCost=3;
-	private static final int InsCost=3;
+	private static final int DelCost=2;
+	private static final int InsCost=2;
 	private static final int Sentinel=Integer.MAX_VALUE;
 	private static final int CopCost=4;
 	private static final int RepCost=2;
