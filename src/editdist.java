@@ -15,7 +15,9 @@ public class editdist {
 		/*for(int i=0;i<in.length;i++){
 			System.out.println(in[i]);
 		}*/
+
 		System.out.println("enter the transformed strings");
+
 		String output=scann.nextLine();
 		char[] out=output.toCharArray();
 		int inlen=in.length;
@@ -25,7 +27,7 @@ public class editdist {
 		int [][] T = new int[inlen][outlen];
 		String[][] Opseq=new String[inlen][outlen];
 		int c=EditDistance(in,out,T,Opseq,inlen,outlen);
-		System.out.println("Transformed matrix");
+		System.out.println("Transformed matrixes are");
 		for(int i=0;i<inlen;i++){
 			for(int j=0;j<outlen;j++){
 				System.out.print(T[i][j]+"  ");
